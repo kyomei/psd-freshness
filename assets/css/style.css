@@ -1,0 +1,96 @@
+/* 
+    Created on : 6 de jun de 2019, 20:32:50
+    Author     : Rafael Jeferson <rafa.jefer@gmail.com>
+*/
+
+/* All Elements Style */
+body { font-family: 'Merriweather', serif; }
+p { font-weight: 400; }
+h1, h2, h3, h4, h5, h6, h6 { font-weight: 700; }
+a { transition: 0.5s; }
+input[type="submit"] { cursor: pointer; transition: 0.5s; }
+
+/* header Area Style */
+#header_area {
+   border-top: 5px solid #3bafbe;
+   border-bottom: 1px solid #e2e2e2;
+   padding: 25px 0;
+}
+
+/* Redes sociais Area Style */
+.social_area {
+   width: 100%;
+   clear: both;
+   margin-bottom: 25px;
+}
+.social_area ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.social_area ul li {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.social_area ul li a {
+   background: #1f1f1f;
+   width: 32px;
+   height: 32px;
+   color: #fff;
+   display: block;
+   text-align: center;
+   line-height: 32px;
+   transition: 0.5s;
+   border-radius: 50%;
+}
+.social_area ul li a:hover {
+   background: #ee802f;
+}
+
+/* Search Area Style */
+.search_area {
+   text-align: right; 
+   width: 100%; 
+   clear: both;
+   margin-bottom: 20px;
+}
+.search_area input {
+   background: #333333;
+   color: #fff;
+   border: 0px solid;
+   padding: 11px;
+   border-radius: 8px;
+}
+.search_area input[type="submit"] {
+   background: #3bafbe;
+}
+.search_area input[type="submit"]:hover {
+   background: #ee802f;
+}
+
+/* Menu Area Style */
+#main_menu {
+   text-align: right;
+}
+#main_menu ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+#main_menu ul li {
+   display: inline-block;
+}
+#main_menu ul li a {
+   display: block;
+   font-size: 14px;
+   color: #999999;
+   text-transform: uppercase;
+   padding: 5px 10px;
+   text-decoration: none;
+   transition: 0.5s;
+}
+#main_menu ul li a:hover {
+   color: #3bafbe;
+   
+}
