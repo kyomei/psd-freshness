@@ -169,3 +169,36 @@ a.readmore:hover { background: #262626 none repeat scroll 0 0; }
    height: auto;
    margin-bottom: 30px;
 }
+
+
+/* Services Area Style */
+#service_area {
+   border-top: 1px solid #ddd;
+   padding: 50px 0;
+}
+#service_area .col-md-10 h4 {
+   text-align: center;
+   padding-bottom: 50px;
+   font-size: 22px;
+   color: #666666;
+   font-weight: 400;
+   font-style: italic;
+}
+#service_area .col-md-4 img {
+   float: left;
+   margin-right: 15px;
+   margin-bottom: 40px;
+}
+#service_area .col-md-4 h4 {
+   font-size: 15px;
+   font-weight: 400;
+   margin-bottom: 10px;
+}
+#service_area .col-md-4 h4 a {
+   color: #3bafbe;
+}
+#service_area .col-md-4 p {
+   font-size: 12px;
+   margin-bottom: 0;
+   line-height: 1.4em;
+}
